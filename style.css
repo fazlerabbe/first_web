@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .color_style {
@@ -51,9 +51,9 @@ section {
 }
 
 .down-half-weith {
-    width: 45%;
+    width: 47%;
     float: left;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .down-top-banner {
