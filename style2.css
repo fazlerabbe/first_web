@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: indianred;
+}
+
+.first-section-image {
+    padding: 100px;
+    width: 500px;
+}
+
+.first-section {
+    border: 1px soli;
+    background-image: url(image2/header-bg.png);
+    height: 800px;
+}
+
+.second-section {
+    border: 1px soli;
+    background-image: url(image2/biography-bg.png);
+    height: 800px;
+}
+
+.first-section-div {
+    width: 36%;
+    float: left;
+}
+
+.first-section-first-div {
+    margin-left: 100px;
+    margin-top: 250px;
+}
+
+.button-1 {
+    text-decoration: none;
+    background-color: lightcoral;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+}
+
+.second-section-div {
+    width: 40%;
+    float: left;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.first-section-second-div {
+    margin-left: 100px;
+    margin-top: 300px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    /* remove extra space below image */
+}
+
+.last-work-div {
+    width: 30%;
+    float: left;
+    margin-left: 40px;
+}
+
+.founder-class {
+    margin-top: 500px;
+    text-align: center;
+}
+
+.founder-section {
+    background-image: url(image2/footer-bg.png);
+    height: 600px;
+}
+
+.mail {
+    background-color: lightcoral;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+footer {
+    text-align: center;
+}

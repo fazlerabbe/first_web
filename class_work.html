@@ -7,20 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        
+        .table-style {
+            border-collapse: collapse;
+            height: 200px;
+            width: 200px;
+            align-items: center;
+            justify-content: center;
+        }
     </style>
 
 </head>
 
 <body>
-    <TABLE BORDER=1>
-        <CAPTION>A test table with merged cells</CAPTION>
-        <TR><TH ROWSPAN=2><TH COLSPAN=2>Average
-        <TH ROWSPAN=1>other
-        <TR><TH>height<TH>weight
-        <TR><TH ALIGN=LEFT>males<TD>1.9<TD>0.003
-        <TR><TH ALIGN=LEFT ROWSPAN=2>females<TD>1.7<TD>0.002
-      </TABLE>
+    <table border=1 class="table-style">
+        <caption>A test table with merged cells</caption>
+        <tr>
+            <th rowspan="2 ">Web Language</th>
+            <td colspan="2">HTML</td>
+
+            <td>java</td>
+        </tr>
+        <tr>
+            <td>PHP</td>
+            <td>JS</td>
+            <td rowspan="2">3.00</td>
+
+        </tr>
+        <th>Framework</th>
+        <td>CI</td>
+        <td>Bootstrap</td>
+
+        </tr>
+    </table>
 </body>
 
 </html>
