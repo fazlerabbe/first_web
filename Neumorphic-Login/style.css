@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    background-color: #ecf0f3;
+}
+
+.login-form {
+    height: 355px;
+    width: 200px;
+    margin-top: 70px;
+    background-color: #ecf0f3;
+    padding: 20px 10px 10px 10px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px rgb(194, 209, 194), -10px -10px 15px white;
+}
+
+.logo {
+    background: url(image/logo2.png);
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 2px grey, 8px 8px 10px #afaaaf, -8px -8px 10px white;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding-top: 8px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .3px;
+    color: grey;
+}
+
+.sub-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-top: 8px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    color: grey;
+}
+
+.fields {
+    width: 100%;
+    padding: 10px 6px 6px 6px;
+}
+
+.fields input {
+    border: none;
+    outline: none;
+    background: none;
+    color: gray;
+    padding: 0px 10px 10px 30px;
+}
+
+.username,
+.password {
+    margin-bottom: 4px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: inset 8px 8px 15px rgb(194, 209, 194), inset -8px -8px 15px white;
+}
+
+.fields svg {
+    height: 20px;
+    margin: 0px 5px -25px;
+}
+
+.sigin-button {
+    border: none;
+    cursor: pointer;
+    background: rgb(91, 238, 103);
+    color: whitesmoke;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgb(194, 209, 194), -10px -10px 15px white;
+    transition: .5s linear;
+}
+
+.sigin-button:hover {
+    background: rgb(7, 87, 14);
+}
+
+.sigin-button:active {
+    background: yellow;
+}
+
+.link {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.link a {
+    text-decoration: none;
+    color: gray;
+}

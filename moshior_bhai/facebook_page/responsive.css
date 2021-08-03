@@ -1,0 +1,25 @@
+@media screen and (max-width:632px) {
+    .logo-area {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .login-area {
+        width: 250px;
+        margin: auto;
+        float: none;
+    }
+}
+
+@media screen and (max-width:632px) {
+    .login-area .email,
+    .login-area .password,
+    .login-area .login {
+        float: none;
+        margin-left: 10px;
+    }
+    .login-area input[type="text"],
+    .login-area input[type="password"] {
+        width: 100%;
+    }
+}
